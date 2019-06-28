@@ -1,12 +1,11 @@
 package lib
-
+var Snacks map[string]string
 func init() {
-var snacks map[string]string
-snacks = make(map[string]string)
-snacks["chips"] = "potato chips"
-snacks["cookies"] = "oreo"
-snacks["juice"] = "orange"
-snacks["candies"] = "mandm"
+Snacks = make(map[string]string)
+Snacks["chips"] = "potato chips"
+Snacks["cookies"] = "oreo"
+Snacks["juice"] = "orange"
+Snacks["candies"] = "mandm"
 }
 
 
